@@ -1,6 +1,8 @@
 package Semaphore.light;
 
-public interface Light {
+import Semaphore.light.util.TurnOnOff;
+
+public interface Light extends TurnOnOff {
 	enum OnOff {ON, OFF};
 	void turnOn();
 	void turnOff();
