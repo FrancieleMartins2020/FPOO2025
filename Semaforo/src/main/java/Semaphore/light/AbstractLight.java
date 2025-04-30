@@ -1,7 +1,5 @@
 package Semaphore.light;
 
-import Semaphore.light.Light.OnOff;
-
 public class AbstractLight implements Light {
 
 	private OnOff state = OnOff.OFF;

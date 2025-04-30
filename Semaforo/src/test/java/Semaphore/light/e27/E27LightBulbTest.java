@@ -1,9 +1,11 @@
 package Semaphore.light.e27;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
-import Semaphore.light.util.TurnOnOff;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import Semaphore.util.TurnOnOff;
 
 class E27LightBulbTest {
 	@Test
